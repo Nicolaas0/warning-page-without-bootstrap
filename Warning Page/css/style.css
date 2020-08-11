@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Metal+Mania&display=swap');
+
+
+body {
+	background-image: url("https://w.wallhaven.cc/full/yj/wallhaven-yj3ook.jpg");
+        background-repeat:no-repeat;
+       background-size:cover;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+  }
+
+.pengumuman{
+  font-family: Metal Mania;
+}  
+
+.home{
+  float: right;
+  color: white;
+  font-family: Balsamiq Sans;
+}
+
+.akun{
+  float: right;
+  color: white;
+  font-family: Balsamiq Sans;
+  size: '5';
+}
+  
+  li a {
+    display: block;
+    color: rgb(48, 47, 47);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+    li a:hover {
+        background-color: rgb(230, 0, 0);}
+
+        .logo{
+          float: left;
+          padding: 0px 10px;
+        }
+
+        .prodname{
+          float: left;
+          margin-top: 10px;
+          font-family: Lobster;
+        }
+
+        footer{
+          padding-bottom: 0px;
+          padding-top: 120px;
+          color: rgb(255, 255, 255);
+        }
+
+        .kembali{
+          padding: 20px;
+          font-size: 16px;
+          background-color: red;
+          border-radius: 18px;
+          margin-left: 700px;
+          margin-top: 30px;
+          font-family: Roboto;
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+          cursor: pointer;
+          transition: all 0.5s;
+          vertical-align: middle;
+        }
+
+        .kembali span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+
+        .kembali span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+
+        .kembali:hover span {
+          padding-right: 15px;
+        }
+
+        .kembali:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+
+        body{
+          font-family: sans-serif;
+        }
+
+        .admin{
+        padding-top: 80px;;
+        }
+
+        .kembali2{
+          color: rgb(255, 255, 255);
+        }
+
+        .overprod{
+          color:black;
+        }
+        
